@@ -13,6 +13,10 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-
+ByteFloatingPoint b=new ByteFloatingPoint((float)7.18534);
+int i=7;
+System.out.println();
+b.printValue();
+//System.out.println("BIN: "+Integer.toBinaryString(b.readValue()));
     }
 }
